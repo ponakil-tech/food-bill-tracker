@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Riverpod Login',
+      title: 'Flutter Bill Tracker',
       theme: ThemeData(
         colorSchemeSeed: Colors.blue,
         useMaterial3: true,
