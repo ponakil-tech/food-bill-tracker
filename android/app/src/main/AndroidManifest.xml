@@ -1,4 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Required for network calls (Dio) in release builds. Debug/profile
+         manifests already include this; the main manifest covers release. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:label="food_bill_tracker"
         android:name="${applicationName}"
